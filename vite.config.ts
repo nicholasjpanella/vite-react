@@ -20,6 +20,7 @@ export default defineConfig(({ mode }) => {
     },
 
     root: "src",
+    base: "vite-react",
     envDir,
     envPrefix,
     define: {

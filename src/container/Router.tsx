@@ -13,7 +13,7 @@ const ViewWrapper = ({ children = null }) => (
 
 export default function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="vite-react">
       <Suspense fallback="Thinking...">
         <Routes>
           {views.map(
