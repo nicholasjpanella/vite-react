@@ -29,6 +29,7 @@ export default defineConfig(({ mode }) => {
     build: {
       sourcemap: mode !== "production",
       emptyOutDir: true,
+      outDir: "../dist",
     },
 
     server: {
